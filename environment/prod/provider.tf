@@ -5,12 +5,12 @@ terraform {
       version = "5.2.0"
     }
   }
- backend "azurerm" {
+  backend "azurerm" {
     resource_group_name  = "RGsohan"
-    storage_account_name = "storagesohan"  
+    storage_account_name = "storagesohan"
     container_name       = "containersohan"
     key                  = "sohan.tfstate"
- }
+  }
 }
 
 provider "azurerm" {
