@@ -1,10 +1,10 @@
 module_rg = {
-  rg1 = {
-    name     = "RGsohan"
-    location = "central india"
-  }
+  # rg1 = {
+  #   name     = "RGsohan"
+  #   location = "central india"
+  # }
   rg2 = {
-    name     = "RGmohan"
+    name     = "RGrohan"
     location = "central india"
   }
 }
