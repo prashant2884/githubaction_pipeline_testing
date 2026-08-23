@@ -98,7 +98,7 @@ jobs:
   terraform-apply:
     name: Terraform Apply
     runs-on: ubuntu-latest
-    needs: terraform-pan
+    needs: terraform-plan
 
     if: github.ref == 'refs/heads/main'
 
