@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: terraform-testing
 
-    if: startsWith(github.ref, 'refs/heads/feature')
+    # if: startsWith(github.ref, 'refs/heads/feature')
 
     env:
       ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
@@ -98,7 +98,7 @@ jobs:
   terraform-apply:
     name: Terraform Apply
     runs-on: ubuntu-latest
-    needs: terraform-testing
+    needs: terraform-plan
 
     if: github.ref == 'refs/heads/main'
 
