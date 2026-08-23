@@ -6,7 +6,7 @@ module_rg = {
 }
 module_storage = {
   storage1 = {
-    name                     = "Storagesohan"
+    name                     = "storagesohan"
     location                 = "central india"
     resource_group_name      = "RGsohan"
     account_tier             = "Standard"
