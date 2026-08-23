@@ -1,2 +1,2 @@
 variable "module_rg" {}
-variable "module_storage" {}
+# variable "module_storage" {}
